@@ -6,7 +6,7 @@ on: workflow_dispatch
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   param sku string = 'S1' // The SKU of App Service Plan
-  LOCATION: PHL
+  LOCATION: eastus2
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 2f92a816-53da-4873-a183-7556ce4c008a
   WEBAPP-NAME: devops-webapp-eastus2-51868314
